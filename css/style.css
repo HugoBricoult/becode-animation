@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #245060;
+}
+
+#title {
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-top: 15vh;
+    font-size: 4em;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    stroke-dasharray: 30px;
+    transition-duration: 0.5s;
+}
+
+.bar {
+    color: #ffd401;
+}
+
+.transparent {
+    color: #245060;
+}
